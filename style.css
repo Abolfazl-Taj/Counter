@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.countiner{
+ margin-top:50px
+}
+#nagetive ,#reset
+ ,#pluse{
+ border: none;
+ padding:1rem;
+ border-radius: 5px;
+ color: rgb(104, 104, 104);
+}
+#nagetive{
+    background-color: rgb(173, 173, 173);
+    border: 3.5px solid red;
+}
+#reset{
+    background-color: rgb(173, 173, 173);
+    border: 3.5px solid rgb(0, 0, 0);
+}
+#pluse{
+    background-color: rgb(173, 173, 173);
+ border: solid 3.5px rgb(61, 255, 61);
+}
+#saver{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ color: aliceblue;
+ font-weight: bold;
+ font-size: 100px;
+ border-radius: 10px;
+}
